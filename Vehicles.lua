@@ -7,3 +7,6 @@ Shop.Items["PinkSlip.PickUpVan"] = {
 Shop.Items["PinkSlip.OffRoad"] = {
 	tab = Tab.Vehicles, price = 500, quantity = 1,
 }
+Shop.Items["PinkSlip.Trailer"] = {
+	tab = Tab.Vehicles, price = 1500, quantity = 1,
+}
