@@ -8,6 +8,7 @@ Tab["Meds"] = "Meds"
 Tab["Ammo"] = "Ammo"
 Tab["Repair"] = "Repair"
 Tab["Clothing"] = "Clothing"
+Tab["Weapons"] = "Weapons"
 
 Shop.Tabs = {} --Clear all Tabs in case you dont want the default ones included in main mod nshops
 Shop.Items= {} --Clear all Shop Items in case you dont want the default ones included in main mod nshops
@@ -20,3 +21,4 @@ Shop.Tabs[Tab.Meds] = getText("IGUI_Tab_Meds")
 Shop.Tabs[Tab.Ammo] = getText("Ammo")
 Shop.Tabs[Tab.Repair] = getText("Repair")
 Shop.Tabs[Tab.Clothing] = getText("Clothing")
+Shop.Tabs[Tab.Weapons] = gettext("Weapons")
