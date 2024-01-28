@@ -1,26 +1,36 @@
---Default Tabs
+-- Default Tabs
 Tab["Favorite"] = "Favorite"
 Tab["Sell"] = "Sell"
 Tab["All"] = "All"
-
---Custom Tabs definition
-Tab["Meds"] = "Meds"
+-- Custom Tabs definition
 Tab["Ammo"] = "Ammo"
+Tab["Equipment"] = "Equipment"
+Tab["FirstAid"] = "FirstAid"
+Tab["Meds"] = "Meds"
+Tab["Mechanics"] = "Mechanics"
 Tab["Repair"] = "Repair"
 Tab["Clothing"] = "Clothing"
+-- Tab["Special"] = "Special"
 Tab["Weapons"] = "Weapons"
 Tab["Vehicles"] = "Vehicles"
+Tab["Food"] = "Food"
 
-Shop.Tabs = {} --Clear all Tabs in case you dont want the default ones included in main mod nshops
-Shop.Items= {} --Clear all Shop Items in case you dont want the default ones included in main mod nshops
+Shop.Tabs = {} -- Clear all Tabs in case you dont want the default ones included in main mod nshops
+Shop.Items = {} -- Clear all Shop Items in case you dont want the default ones included in main mod nshops
 
---Add tabs to the shop (Tabs in the Shop UI will show up in this order)
-Shop.Tabs[Tab.Favorite] = getText("IGUI_Tab_Favorite") --Tab Display name, use IG_UI_EN.txt or you can hardcode it here
-Shop.Tabs[Tab.Sell] = getText("IGUI_Tab_Sell") -- Sell tab(if you don't want to use the Sell feature then remove it)
-Shop.Tabs[Tab.All] = getText("IGUI_Tab_All")
-Shop.Tabs[Tab.Meds] = getText("IGUI_Tab_Meds") 
-Shop.Tabs[Tab.Ammo] = getText("Ammo")
-Shop.Tabs[Tab.Repair] = getText("Repair")
-Shop.Tabs[Tab.Clothing] = getText("Clothing")
-Shop.Tabs[Tab.Weapons] = gettext("Weapons")
-Shop.Tabs[Tab.Vehicles] = gettext("Vehicles")
+-- Default Tabs 
+Shop.Tabs[Tab.Favorite] = "Favorite"
+Shop.Tabs[Tab.Sell] = "Sell"
+Shop.Tabs[Tab.All] = "All"
+-- Custome Tabs
+Shop.Tabs[Tab.Ammo] = "Ammo"
+-- Shop.Tabs[Tab.Equipment] = "Equipment"
+-- Shop.Tabs[Tab.FirstAid] = "First Aid"
+Shop.Tabs[Tab.Meds] = "Meds"
+-- Shop.Tabs[Tab.Mechanics] = "Mechanics"
+Shop.Tabs[Tab.Repair] = "Repair"
+Shop.Tabs[Tab.Clothing] = "Clothing"
+-- Shop.Tabs[Tab.Special] = "Special"
+Shop.Tabs[Tab.Weapons] = "Weapons"
+Shop.Tabs[Tab.Vehicles] = "Vehicles"
+Shop.Tabs[Tab.Food] = "Food"
