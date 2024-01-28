@@ -6,7 +6,7 @@ Currency.Wallets["Base.Wallet3"] = true
 Currency.Wallets["Base.Wallet4"] = true
 
 --Items that are going to be use as a coin/money
-Currency.BaseCoin = "Base.XCoin"
+Currency.BaseCoin = "Base.CopperCoin"
 Currency.SpecialCoin = "Base.SCoin"
 Currency.UseSpecialCoin = true
 -- Currency.SpecialCoin = "Base.SCoin"
