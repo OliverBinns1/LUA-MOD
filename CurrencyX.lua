@@ -8,7 +8,7 @@ Currency.Wallets["Base.Wallet4"] = true
 --Items that are going to be use as a coin/money
 Currency.BaseCoin = "Base.CopperCoin"
 Currency.SpecialCoin = "Base.SCoin"
-Currency.UseSpecialCoin = true
+Currency.UseSpecialCoin = false
 -- Currency.SpecialCoin = "Base.SCoin"
 
 -- Currency.UseSpecialCoin = true -- In case you want to use a special type of currency (event type stuff) set this to true
@@ -23,7 +23,7 @@ Currency.Coins[Currency.BaseCoin] = {value = 1}
 --Coins/Money texture display in Transfer/Shop UI
 Currency.CoinsTexture = {
 	Coin = {
-		texture = getTexture("media/textures/Item_XCoin.png"),
+		texture = getTexture("media/textures/DallasCoin.png"),
 		scale = 15
 	},
 	SpecialCoin = {
