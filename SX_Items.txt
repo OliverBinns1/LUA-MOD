@@ -1,0 +1,30 @@
+module Base {
+
+	item DallasCoin
+	{
+		Count = 1,
+		Weight = 0.01,
+		CanBeEquipped = FALSE,
+		Type = Normal,
+		DisplayName = Dallas Coin,
+		Icon = DallasCoin,
+		WorldStaticModel = DallasCoin,
+	}
+
+	model DallasCoin 
+	{
+		mesh = WorldItems/Button,
+		texture = Item_DallasCoin,
+		scale = 1,
+	}
+	
+	item MedsPack
+	{
+		Count	=	1,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Meds pack,
+		Icon	=	Present4,
+	}
+
+}
